@@ -1,3 +1,5 @@
 module github.com/nahidhasan98/jwt_practice
 
 go 1.17
+
+require github.com/dgrijalva/jwt-go v3.2.0+incompatible
