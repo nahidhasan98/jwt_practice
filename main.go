@@ -13,7 +13,7 @@ func main() {
 
 	http.HandleFunc("/home", handler.Home)
 	http.HandleFunc("/login", handler.Login)
-	http.HandleFunc("/reresh", handler.Login)
+	http.HandleFunc("/refresh", handler.Refresh)
 
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
